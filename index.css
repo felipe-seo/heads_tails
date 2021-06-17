@@ -1,0 +1,45 @@
+body{
+    align-items: space-around;
+    justify-content: center; 
+    background-color:rgb(17, 16, 16);  
+    border:0px; 
+}
+
+button {
+    width: 175px;
+    height: 60px;    
+}
+body,
+#container,
+#coin, 
+#heads,
+#tails, 
+#buttons{
+    display:flex;
+}
+
+#container{
+    margin-left: 500px;    
+}
+
+#coin {   
+    width:350px;
+    height:350px;
+    background-color: #fff;    
+}
+
+#heads, #tails {
+    width:350px;
+    height:350px;
+    display:none;
+}
+
+#result {
+    width:350px;
+    height:50px;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    background-color:rgb(17, 16, 16);
+    color: white;
+    text-align: center;
+}
