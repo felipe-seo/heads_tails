@@ -1,13 +1,23 @@
 body{
     align-items: space-around;
     justify-content: center; 
-    background-color:rgb(17, 16, 16);  
+    background-color: rgb(93 95 162);; 
     border:0px; 
+
 }
 
 button {
-    width: 175px;
-    height: 60px;    
+    margin: 10px;
+    width: 130px;
+    height: 50px;   
+    border-style: none;
+    border-radius: 5px; 
+
+    font-size: 26px;
+    font-weight: 800;
+    color: #52616c;
+
+
 }
 body,
 #container,
@@ -16,6 +26,7 @@ body,
 #tails, 
 #buttons{
     display:flex;
+    justify-content:center;
 }
 
 #container{
@@ -38,10 +49,14 @@ body,
 
 #result {
     width:350px;
-    height:50px;
-    font-family: 'Gill Sans';
-    font-size: 25px;
-    background-color:rgb(17, 16, 16);
+    height:80px;
+    font-size: 30px;
+    background-color:rgb(93 95 162);;
     color: white;
     text-align: center;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

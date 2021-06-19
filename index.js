@@ -9,10 +9,8 @@ function play(param) {
     }
     if (param === sortedOption) {
         document.getElementById("result").innerHTML = "You won"
-        console.log("Venceu")
     } else {
         document.getElementById("result").innerHTML = "The computer won"
-        console.log("Perdeu")
     }
 }
 
